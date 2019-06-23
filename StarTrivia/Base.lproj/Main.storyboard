@@ -719,9 +719,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Dhh-KB-n6Q" secondAttribute="bottom" id="25A-S4-nML"/>
-                            <constraint firstItem="hlx-6D-dEh" firstAttribute="bottom" secondItem="sPt-7N-JSc" secondAttribute="bottom" constant="20" id="5uT-Nk-xLs"/>
                             <constraint firstItem="cBr-RT-nDA" firstAttribute="leading" secondItem="sPt-7N-JSc" secondAttribute="leading" constant="20" id="5vW-fd-DS1"/>
                             <constraint firstItem="sPt-7N-JSc" firstAttribute="trailing" secondItem="VK2-uV-bhF" secondAttribute="trailing" constant="20" id="6wD-X1-WXh"/>
+                            <constraint firstAttribute="bottom" secondItem="hlx-6D-dEh" secondAttribute="bottom" constant="14" id="C8u-ru-R04"/>
+                            <constraint firstItem="hlx-6D-dEh" firstAttribute="leading" secondItem="sPt-7N-JSc" secondAttribute="leading" constant="20" id="GYa-U7-waT"/>
                             <constraint firstItem="VK2-uV-bhF" firstAttribute="leading" secondItem="sPt-7N-JSc" secondAttribute="leading" constant="20" id="L9Y-Fu-OOM"/>
                             <constraint firstAttribute="bottom" secondItem="oa2-kO-81C" secondAttribute="bottom" constant="14" id="WVj-WJ-D5c"/>
                             <constraint firstItem="sPt-7N-JSc" firstAttribute="trailing" secondItem="Dhh-KB-n6Q" secondAttribute="trailing" id="ZVr-Uv-qbF"/>
@@ -730,7 +731,6 @@
                             <constraint firstItem="sPt-7N-JSc" firstAttribute="trailing" secondItem="cBr-RT-nDA" secondAttribute="trailing" constant="20" id="hQ3-Le-Mq2"/>
                             <constraint firstItem="cBr-RT-nDA" firstAttribute="top" secondItem="sPt-7N-JSc" secondAttribute="top" constant="20" id="nPt-D8-pHb"/>
                             <constraint firstItem="VK2-uV-bhF" firstAttribute="centerY" secondItem="yAl-IW-Bmx" secondAttribute="centerY" id="nYn-Eb-HJC"/>
-                            <constraint firstItem="hlx-6D-dEh" firstAttribute="leading" secondItem="sPt-7N-JSc" secondAttribute="leading" constant="20" id="qYu-k4-5sr"/>
                             <constraint firstItem="Dhh-KB-n6Q" firstAttribute="top" secondItem="yAl-IW-Bmx" secondAttribute="top" id="rwy-l1-57u"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sPt-7N-JSc"/>
