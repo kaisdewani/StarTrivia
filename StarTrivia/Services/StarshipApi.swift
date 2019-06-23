@@ -1,5 +1,5 @@
 //
-//  VehicleApi.swift
+//  StarshipApi.swift
 //  StarTrivia
 //
 //  Created by Kais Dewani on 6/23/19.
@@ -9,8 +9,8 @@
 import Foundation
 import Alamofire
 
-class VehicleApi {
-    func getVehicle(url: String, completion: @escaping VehicleResponseCompletion){
+class StarshipApi {
+    func getStarship(url: String, completion: @escaping StarshipResponseCompletion){
         guard let url = URL(string: url) else { return }
         Alamofire.request(url).responseJSON { (response) in
             if let error = response.result.error {
@@ -22,12 +22,13 @@ class VehicleApi {
             guard let data = response.data else { return completion(nil) }
             let jsonDecoder = JSONDecoder()
             do{
-                let vehicle = try jsonDecoder.decode(Vehicle.self, from: data)
-                completion(vehicle)
-            } catch {
+                let starship = try jsonDecoder.decode(Starship.self, from: data)
+                completion(starship)
+            } catch{
                 debugPrint(error.localizedDescription)
                 completion(nil)
             }
+            
             
         }
     }
