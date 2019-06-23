@@ -29,6 +29,8 @@
 		D6F3167A22A9DD190097D67A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3167922A9DD190097D67A /* Person.swift */; };
 		D6F8CBD322BFDAAC004A217A /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F8CBD222BFDAAC004A217A /* Homeworld.swift */; };
 		D6F8CBD522BFDB00004A217A /* HomeworldApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F8CBD422BFDB00004A217A /* HomeworldApi.swift */; };
+		D6F8CBD922BFED38004A217A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F8CBD822BFED38004A217A /* Vehicle.swift */; };
+		D6F8CBDB22BFEE43004A217A /* VehicleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F8CBDA22BFEE43004A217A /* VehicleApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		D6F3167922A9DD190097D67A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		D6F8CBD222BFDAAC004A217A /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
 		D6F8CBD422BFDB00004A217A /* HomeworldApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldApi.swift; sourceTree = "<group>"; };
+		D6F8CBD822BFED38004A217A /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		D6F8CBDA22BFEE43004A217A /* VehicleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleApi.swift; sourceTree = "<group>"; };
 		E22386911E9046996A5B0386 /* Pods-StarTriviaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTriviaTests.debug.xcconfig"; path = "Target Support Files/Pods-StarTriviaTests/Pods-StarTriviaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA7CBF8AC1E5311C745C86EA /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +220,7 @@
 			children = (
 				D6F3167922A9DD190097D67A /* Person.swift */,
 				D6F8CBD222BFDAAC004A217A /* Homeworld.swift */,
+				D6F8CBD822BFED38004A217A /* Vehicle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			children = (
 				D6F3167722A9D8770097D67A /* PersonApi.swift */,
 				D6F8CBD422BFDB00004A217A /* HomeworldApi.swift */,
+				D6F8CBDA22BFEE43004A217A /* VehicleApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -465,7 +471,9 @@
 				D6F3167A22A9DD190097D67A /* Person.swift in Sources */,
 				D6B7685522ADD8BA00D8BE24 /* StarshipsVC.swift in Sources */,
 				D6F8CBD322BFDAAC004A217A /* Homeworld.swift in Sources */,
+				D6F8CBD922BFED38004A217A /* Vehicle.swift in Sources */,
 				D6B7685322ADD8AE00D8BE24 /* VehiclesVC.swift in Sources */,
+				D6F8CBDB22BFEE43004A217A /* VehicleApi.swift in Sources */,
 				D6F8CBD522BFDB00004A217A /* HomeworldApi.swift in Sources */,
 				D6F3163822A9CFFE0097D67A /* SelectPersonVC.swift in Sources */,
 				D6F3163622A9CFFE0097D67A /* AppDelegate.swift in Sources */,
